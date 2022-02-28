@@ -1,15 +1,19 @@
-const abi = [{
-        "inputs": [{
-            "internalType": "contract IERC20",
-            "name": "_erc20_contract_address",
-            "type": "address"
-        }],
+const abi = [
+    {
+        "inputs": [
+            {
+                "internalType": "contract IERC20",
+                "name": "_erc20_contract_address",
+                "type": "address"
+            }
+        ],
         "stateMutability": "nonpayable",
         "type": "constructor"
     },
     {
         "anonymous": false,
-        "inputs": [{
+        "inputs": [
+            {
                 "indexed": false,
                 "internalType": "address",
                 "name": "recipient",
@@ -27,7 +31,8 @@ const abi = [{
     },
     {
         "anonymous": false,
-        "inputs": [{
+        "inputs": [
+            {
                 "indexed": false,
                 "internalType": "address",
                 "name": "from",
@@ -45,7 +50,8 @@ const abi = [{
     },
     {
         "anonymous": false,
-        "inputs": [{
+        "inputs": [
+            {
                 "indexed": false,
                 "internalType": "address",
                 "name": "recipient",
@@ -64,46 +70,57 @@ const abi = [{
     {
         "inputs": [],
         "name": "allIncomingDepositsFinalised",
-        "outputs": [{
-            "internalType": "bool",
-            "name": "",
-            "type": "bool"
-        }],
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [{
-            "internalType": "address",
-            "name": "",
-            "type": "address"
-        }],
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
         "name": "alreadyWithdrawn",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [{
-            "internalType": "address",
-            "name": "",
-            "type": "address"
-        }],
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
         "name": "balances",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [{
+        "inputs": [
+            {
                 "internalType": "address[]",
                 "name": "recipients",
                 "type": "address[]"
@@ -121,28 +138,20 @@ const abi = [{
     },
     {
         "inputs": [],
-        "name": "cliffEdge",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
         "name": "contractBalance",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [{
+        "inputs": [
+            {
                 "internalType": "address",
                 "name": "recipient",
                 "type": "address"
@@ -161,11 +170,13 @@ const abi = [{
     {
         "inputs": [],
         "name": "erc20Contract",
-        "outputs": [{
-            "internalType": "contract IERC20",
-            "name": "",
-            "type": "address"
-        }],
+        "outputs": [
+            {
+                "internalType": "contract IERC20",
+                "name": "",
+                "type": "address"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
@@ -179,71 +190,34 @@ const abi = [{
     {
         "inputs": [],
         "name": "initialTimestamp",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [{
-            "internalType": "address",
-            "name": "",
-            "type": "address"
-        }],
-        "name": "mostRecentUnlockTimestamp",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "netReleasePeriod",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
         "inputs": [],
         "name": "owner",
-        "outputs": [{
-            "internalType": "address payable",
-            "name": "",
-            "type": "address"
-        }],
+        "outputs": [
+            {
+                "internalType": "address payable",
+                "name": "",
+                "type": "address"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [],
-        "name": "releaseEdge",
-        "outputs": [{
-            "internalType": "uint256",
-            "name": "",
-            "type": "uint256"
-        }],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [{
-                "internalType": "uint256",
-                "name": "_cliffTimePeriod",
-                "type": "uint256"
-            },
+        "inputs": [
             {
                 "internalType": "uint256",
-                "name": "_releaseTimePeriod",
+                "name": "_timePeriodInSeconds",
                 "type": "uint256"
             }
         ],
@@ -254,17 +228,33 @@ const abi = [{
     },
     {
         "inputs": [],
-        "name": "timestampSet",
-        "outputs": [{
-            "internalType": "bool",
-            "name": "",
-            "type": "bool"
-        }],
+        "name": "timePeriod",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [{
+        "inputs": [],
+        "name": "timestampSet",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "internalType": "contract IERC20",
                 "name": "token",
                 "type": "address"
@@ -281,7 +271,8 @@ const abi = [{
         "type": "function"
     },
     {
-        "inputs": [{
+        "inputs": [
+            {
                 "internalType": "contract IERC20",
                 "name": "token",
                 "type": "address"
@@ -303,11 +294,13 @@ const abi = [{
         "type": "function"
     },
     {
-        "inputs": [{
-            "internalType": "uint256",
-            "name": "amount",
-            "type": "uint256"
-        }],
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+            }
+        ],
         "name": "withdrawEth",
         "outputs": [],
         "stateMutability": "nonpayable",
@@ -320,12 +313,12 @@ const abi = [{
 ];
 
 // Address of the linear timelock instance
-const linear_address = '0x5CDCCbA39ce998590C54455ED5BE930d920918a1';
+const linear_address = '0x42118A9f65F05bCD26193B819b78fd7a8f482382';
 
 
 // IMPORTANT - which address are you pasting here?
 // THIS MUST BE THE ERC20 ADDRESS NOT THE TIMELOCK ADDRESS
-const erc20_contract_address = '0x23D91837fceE9b52D76e2BE18410D9b2522f681D';
+const erc20_contract_address = '0xdC6104b7993e997Ca5f08aCAB7D3AE86E13D20a6';
 
 function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time));
@@ -482,24 +475,16 @@ async function updateBalances() {
     // Instantiate linear timelock contract
     linearTimeLockContract = new ethers.Contract(linear_address, abi, provider);
 
-    // Cliff edge timestamp
-    cliffEdgeTimestamp = await linearTimeLockContract.cliffEdge();
-    cliffEdgeTimestampBN = new ethers.BigNumber.from(cliffEdgeTimestamp);
-    linearAmounts.setCliffEdge(cliffEdgeTimestampBN);
-
     // Release edge timestamp
-    releaseEdgeTimestamp = await linearTimeLockContract.releaseEdge();
+    releaseEdgeTimestamp = await linearTimeLockContract.timePeriod();
     releaseEdgeTimestampBN = new ethers.BigNumber.from(releaseEdgeTimestamp);
     linearAmounts.setReleaseEdge(releaseEdgeTimestampBN);
 
-    // Net release period
-    linearAmounts.setNetReleasePeriod();
-
     // If we have not hit the unlock period then just send a message and end processing
     if (
-        currentTime < cliffEdgeTimestamp) {
+        currentTime < linearAmounts.getReleaseEdge()) {
         console.log("No tokens available yet");
-        var unlockCommences = new Date(cliffEdgeTimestamp * 1000);
+        var unlockCommences = new Date(linearAmounts.getReleaseEdge() * 1000);
         var toastResponse = JSON.stringify({
             avatar: "../images/favicon.ico",
             text: "Unlocking commences at: " + unlockCommences.toLocaleString(),
@@ -543,44 +528,26 @@ async function updateBalances() {
             linearAmounts.setWithdrawn(linearAlreadyWithdrawnBN);
             console.log("Already withdrawn: " + linearAmounts.getWithdrawn());
 
-            // Get most recent unlock timestamp i.e. the last time this specific user last unlocked tokens
-            mostRecentUnlockTimestamp = await linearTimeLockContract.mostRecentUnlockTimestamp(resultRegex[0]);
-            mostRecentUnlockTimestampBN = new ethers.BigNumber.from(mostRecentUnlockTimestamp);
-            linearAmounts.setMostRecentUnlockTimestamp(mostRecentUnlockTimestampBN);
-            console.log("Time of most recent unlock: " + linearAmounts.getMostRecentUnlockTimestamp());
-
-            // Populate UI with values
-            console.log("Adding start:");
-            console.log(linearAmounts.getLocked());
-            console.log("Adding end.");
-
-            if (ethers.utils.formatEther(linearAmounts.getLocked()) < 1 && ethers.utils.formatEther(linearAmounts.getLocked()) > 0) {
-                document.getElementById("locked").innerHTML = "< 1";
-            } else {
-                document.getElementById("locked").innerHTML = ethers.utils.formatEther(linearAmounts.getLocked());
-            }
-
-            if (ethers.utils.formatEther(linearAmounts.getWithdrawn()) < 1 && ethers.utils.formatEther(linearAmounts.getWithdrawn()) > 0) {
-                document.getElementById("withdrawn").innerHTML = "< 1";
-            } else {
-                document.getElementById("withdrawn").innerHTML = ethers.utils.formatEther(linearAmounts.getWithdrawn());
-            }
-            // Calculate how many wei per second is available for this specific user
-            linearAmounts.setWeiPerSecond((linearAmounts.getLocked().add(linearAmounts.getWithdrawn())).div(linearAmounts.getNetReleasePeriod()));
-            console.log("Wei per second: " + linearAmounts.getWeiPerSecond());
-
             // Calculate how many tokens are available, given the current time period and how much time has elapsed so far        
             if (linearAmounts.getCurrentTime() >= linearAmounts.getReleaseEdge()) {
                 // The maximum time period has passed, so all locked tokens are available now and forever
                 linearAmounts.setAvailable(linearAmounts.getLocked());
                 console.log("No time lock in place, all tokens are available");
-            } else {
-                linearAmounts.setAvailable((linearAmounts.getCurrentTime().sub(linearAmounts.getMostRecentUnlockTimestamp())).mul(linearAmounts.getWeiPerSecond()));
-            }
+            } 
             if (ethers.utils.formatEther(linearAmounts.getAvailable()) < 1 && ethers.utils.formatEther(linearAmounts.getAvailable()) > 0) {
                 document.getElementById("available").innerHTML = "< 1";
             } else {
                 document.getElementById("available").innerHTML = ethers.utils.formatEther(linearAmounts.getAvailable());
+            }
+            if (ethers.utils.formatEther(linearAmounts.getWithdrawn()) < 1 && ethers.utils.formatEther(linearAmounts.getWithdrawn()) > 0) {
+                document.getElementById("withdrawn").innerHTML = "< 1";
+            } else {
+                document.getElementById("withdrawn").innerHTML = ethers.utils.formatEther(linearAmounts.getWithdrawn());
+            }
+            if (ethers.utils.formatEther(linearAmounts.getLocked()) < 1 && ethers.utils.formatEther(linearAmounts.getLocked()) > 0) {
+                document.getElementById("locked").innerHTML = "< 1";
+            } else {
+                document.getElementById("locked").innerHTML = ethers.utils.formatEther(linearAmounts.getLocked());
             }
             // Print value which will be written to state_amount input box
             //console.log("Max available: " + ethers.utils.formatUnits(available).toString());
@@ -689,7 +656,7 @@ async function onButtonClickTransfer() {
             response = await linearTimeLockContract.transferTimeLockedTokensAfterTimePeriod(erc20_contract_address, recipientAddress, stateAmountInWei);
             var toastResponse = JSON.stringify({
                 avatar: "../images/favicon.ico",
-                text: "Congratulations, tokens unlocked!",
+                text: "Congratulations, tokens unlocked",
                 duration: 10000,
                 newWindow: true,
                 close: true,
@@ -740,4 +707,5 @@ async function onButtonClickTransfer() {
         document.getElementById("button_transfer_tokens").disabled = false;
         document.getElementById("pb").style.width = '0%';
     });
+
 }

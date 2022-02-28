@@ -18,7 +18,7 @@
       <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
       <script src="../js/helper.js"></script>
       <div class="container View WelcomeView">
-        <h1 class="Banner">ParaState Linear Timelock</h1>
+        <h1 class="Banner">ParaState Token Claim</h1>
         <div class="Message center">
           <div class="Title"></div>
           <a onclick="connectWallet()" id="connect" title="MetaMask via Wikimedia Commons- https://commons.wikimedia.org/wiki/File:MetaMask_Fox.svg">
@@ -37,7 +37,95 @@
           <br>
           <button class="BalanceButton center" id="button_calculate_balances" onclick="calculateBalances()">Refresh/Calculate Balances</button>
           <br>
-          <button class="NavButton center" id="button_transfer_tokens" onclick="onButtonClickTransfer($('#eth_address').val())">Unlock Your Tokens</button>
+<!-- 
+            <button class="NavButton center msa-button" id="button_transfer_tokens" onclick="onButtonClickTransfer($('#eth_address').val())">Unlock Your Tokens</button>
+-->
+
+          <a button class="NavButton center" id="button_transfer_tokens" href="#msa-popup1">Unlock Your Tokens</button>
+
+<div id="msa-popup1" class="msa-overlay">  
+  <div class="msa-popup">
+    <a class="msa-close" href="#">CLOSE</a>
+    <div class="msa-content">
+<p>
+<br >
+By accessing the ParaState Ecosystem Dapp ("Dapp"), you represent and warrant to the
+ParaState Foundation LTD. ("ParaState Foundation") as follows:
+<br />
+1. you are not a citizen or resident of a country the laws of which prohibit or conflict
+with the holding, sale or trading of tokens; such countries to include (without limita-
+tion) THE UNITED STATES OF AMERICA AND ITS TERRITORIES, CANADA,
+DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, CUBA, SYRIA, IRAN, SUDAN,
+PEOPLE’S REPUBLIC OF CRIMEA, PEOPLE’S REPUBLIC OF CHINA;
+<br />
+2. no regulatory authority has examined or approved the information set out in this
+Dapp and the publication, distribution or dissemination of information under this app
+to you does not imply that the applicable laws, regulatory requirements or rules
+have been complied with;
+<br />
+3. your access to, or use of, this Dapp and the holding of STATE tokens by you is not
+prohibited or restricted by any applicable laws, regulations or rules in your jurisdic-
+tion, and where any restrictions are applicable, you have observed and complied
+with all such restrictions at your own expense and without liability to us;
+<br />
+4. The ParaState Foundation shall not be liable for any direct, indirect, special, inci-
+dental, consequential or other losses of any kind (including but not limited to loss of
+revenue, income or profits, and loss of use or data), in tort (including negligence),
+contract or otherwise, arising out of or in connection with you accessing or using
+this Dapp;
+<br />
+5. you waive the right to participate in a class action lawsuit or a class wide arbitration
+against us, any person involved in the Dapp and/or with the creation and distribution
+of STATE tokens;
+<br />
+6. you are not a U.S. Person as defined in Regulation S under the Securities Act of
+1933, as amended, which means that you are not a natural person resident in the
+United States or its territories and possessions (the “U.S.”), an entity incorporated
+under the laws of the U.S., an estate/trust where the executor/administrator/trustee
+is a U.S. Person or an non-discretionary account held for a U.S. Person, an agency
+or branch of a foreign entity located in the U.S., or an entity incorporated outside the
+U.S. but formed by a U.S. Person principally for the purposes of investing in unreg-
+istered securities under the Securities Act (unless incorporated and owned by ac-
+credited investors who are not natural persons, estates or trusts), and you acknowl-
+edge, agree and represent as follows:
+<br />
+<ul>
+  <li>
+any offer, sale and trade of STATE tokens is being made in an offshore
+transaction, which means that the transaction was not effected in the United
+States or its territories;
+  </li>
+  <li>
+no directed selling efforts were made in the United States, which means that
+no marketing efforts were made to you in the United States;
+  </li>
+  <li>
+you are not acquiring tokens for the account or benefit of any U.S. Person;
+and
+  </li>
+  <li>
+you agree not to offer or sell the Tokens (or create or maintain any derivative
+position equivalent thereto) in the U.S., to or for the account or benefit of a
+U.S. Person;
+  </li>
+</ul>
+<br />
+7. you bear the sole responsibility to determine what tax implications your use of the
+app may have for you; and
+8. all of the above representations and warranties are, and will continue to be, true,
+complete, accurate and non-misleading from the time of your acceptance of these
+attestation and notwithstanding the use by you of this Dapp.
+<p>
+ <div id="outer">
+  <div class="buttons">
+    <button type="submit" class="msgBtn" onClick="onButtonClickTransfer($('#eth_address').val())" >I Agree</button>
+  </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
           <br>
           <table id="example" class="table-responsive-sm center tableText">
             <thead>
