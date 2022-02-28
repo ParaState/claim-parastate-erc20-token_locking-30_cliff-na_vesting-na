@@ -1,19 +1,15 @@
-const abi = [
-    {
-        "inputs": [
-            {
-                "internalType": "contract IERC20",
-                "name": "_erc20_contract_address",
-                "type": "address"
-            }
-        ],
+const abi = [{
+        "inputs": [{
+            "internalType": "contract IERC20",
+            "name": "_erc20_contract_address",
+            "type": "address"
+        }],
         "stateMutability": "nonpayable",
         "type": "constructor"
     },
     {
         "anonymous": false,
-        "inputs": [
-            {
+        "inputs": [{
                 "indexed": false,
                 "internalType": "address",
                 "name": "recipient",
@@ -31,8 +27,7 @@ const abi = [
     },
     {
         "anonymous": false,
-        "inputs": [
-            {
+        "inputs": [{
                 "indexed": false,
                 "internalType": "address",
                 "name": "from",
@@ -50,8 +45,7 @@ const abi = [
     },
     {
         "anonymous": false,
-        "inputs": [
-            {
+        "inputs": [{
                 "indexed": false,
                 "internalType": "address",
                 "name": "recipient",
@@ -70,57 +64,46 @@ const abi = [
     {
         "inputs": [],
         "name": "allIncomingDepositsFinalised",
-        "outputs": [
-            {
-                "internalType": "bool",
-                "name": "",
-                "type": "bool"
-            }
-        ],
+        "outputs": [{
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "internalType": "address",
-                "name": "",
-                "type": "address"
-            }
-        ],
+        "inputs": [{
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+        }],
         "name": "alreadyWithdrawn",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "internalType": "address",
-                "name": "",
-                "type": "address"
-            }
-        ],
+        "inputs": [{
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+        }],
         "name": "balances",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
+        "inputs": [{
                 "internalType": "address[]",
                 "name": "recipients",
                 "type": "address[]"
@@ -139,19 +122,16 @@ const abi = [
     {
         "inputs": [],
         "name": "contractBalance",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
+        "inputs": [{
                 "internalType": "address",
                 "name": "recipient",
                 "type": "address"
@@ -170,13 +150,11 @@ const abi = [
     {
         "inputs": [],
         "name": "erc20Contract",
-        "outputs": [
-            {
-                "internalType": "contract IERC20",
-                "name": "",
-                "type": "address"
-            }
-        ],
+        "outputs": [{
+            "internalType": "contract IERC20",
+            "name": "",
+            "type": "address"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
@@ -190,37 +168,31 @@ const abi = [
     {
         "inputs": [],
         "name": "initialTimestamp",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
         "inputs": [],
         "name": "owner",
-        "outputs": [
-            {
-                "internalType": "address payable",
-                "name": "",
-                "type": "address"
-            }
-        ],
+        "outputs": [{
+            "internalType": "address payable",
+            "name": "",
+            "type": "address"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "_timePeriodInSeconds",
-                "type": "uint256"
-            }
-        ],
+        "inputs": [{
+            "internalType": "uint256",
+            "name": "_timePeriodInSeconds",
+            "type": "uint256"
+        }],
         "name": "setTimestamp",
         "outputs": [],
         "stateMutability": "nonpayable",
@@ -229,32 +201,27 @@ const abi = [
     {
         "inputs": [],
         "name": "timePeriod",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
         "inputs": [],
         "name": "timestampSet",
-        "outputs": [
-            {
-                "internalType": "bool",
-                "name": "",
-                "type": "bool"
-            }
-        ],
+        "outputs": [{
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+        }],
         "stateMutability": "view",
         "type": "function"
     },
     {
-        "inputs": [
-            {
+        "inputs": [{
                 "internalType": "contract IERC20",
                 "name": "token",
                 "type": "address"
@@ -271,8 +238,7 @@ const abi = [
         "type": "function"
     },
     {
-        "inputs": [
-            {
+        "inputs": [{
                 "internalType": "contract IERC20",
                 "name": "token",
                 "type": "address"
@@ -294,13 +260,11 @@ const abi = [
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "amount",
-                "type": "uint256"
-            }
-        ],
+        "inputs": [{
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+        }],
         "name": "withdrawEth",
         "outputs": [],
         "stateMutability": "nonpayable",
@@ -459,6 +423,14 @@ function clearInput() {
 }
 
 async function updateBalances() {
+    // If we have entered the unlock period then go ahead and get the amounts first
+    document.getElementById("pb").style.width = '0%';
+    console.log("Disabling button");
+    document.getElementById("button_calculate_balances").disabled = true;
+    document.getElementById("button_calculate_balances").value = "Calculating balances, please wait ...";
+    document.getElementById("pb").style.transition = "all 30s linear 0s";
+    document.getElementById("pb").style.width = '80%';
+    
     linearAmounts.reset();
 
     window.ethereum.enable();
@@ -480,9 +452,107 @@ async function updateBalances() {
     releaseEdgeTimestampBN = new ethers.BigNumber.from(releaseEdgeTimestamp);
     linearAmounts.setReleaseEdge(releaseEdgeTimestampBN);
 
+    var toastResponse;
+
+    // Eth address
+    console.log("Calculating balances");
+    eth_address = document.getElementById('eth_address').value;
+    var pattern = /0x[a-fA-F0-9]{40}/;
+    var resultRegex = pattern.exec(eth_address);
+    if (resultRegex != null) {
+        var recipientAddress = resultRegex[0];
+        // Balance locked 
+        linearUsersBalance = await linearTimeLockContract.balances(resultRegex[0]);
+        linearUsersBalanceBN = new ethers.BigNumber.from(linearUsersBalance);
+        linearAmounts.setLocked(linearUsersBalanceBN);
+        console.log("User's balance: " + linearAmounts.getLocked());
+
+        // Amount already withdrawn
+        linearAlreadyWithdrawn = await linearTimeLockContract.alreadyWithdrawn(resultRegex[0]);
+        linearAlreadyWithdrawnBN = new ethers.BigNumber.from(linearAlreadyWithdrawn);
+        linearAmounts.setWithdrawn(linearAlreadyWithdrawnBN);
+        console.log("Already withdrawn: " + linearAmounts.getWithdrawn());
+
+        // Calculate how many tokens are available, given the current time period and how much time has elapsed so far        
+        if (linearAmounts.getCurrentTime() >= linearAmounts.getReleaseEdge()) {
+            // The maximum time period has passed, so all locked tokens are available now and forever
+            linearAmounts.setAvailable(linearAmounts.getLocked());
+            console.log("No time lock in place, all tokens are available");
+        }
+        if (ethers.utils.formatEther(linearAmounts.getAvailable()) < 1 && ethers.utils.formatEther(linearAmounts.getAvailable()) > 0) {
+            document.getElementById("available").innerHTML = "< 1";
+        } else {
+            document.getElementById("available").innerHTML = ethers.utils.formatEther(linearAmounts.getAvailable());
+        }
+        if (ethers.utils.formatEther(linearAmounts.getWithdrawn()) < 1 && ethers.utils.formatEther(linearAmounts.getWithdrawn()) > 0) {
+            document.getElementById("withdrawn").innerHTML = "< 1";
+        } else {
+            document.getElementById("withdrawn").innerHTML = ethers.utils.formatEther(linearAmounts.getWithdrawn());
+        }
+        if (ethers.utils.formatEther(linearAmounts.getLocked()) < 1 && ethers.utils.formatEther(linearAmounts.getLocked()) > 0) {
+            document.getElementById("locked").innerHTML = "< 1";
+        } else {
+            document.getElementById("locked").innerHTML = ethers.utils.formatEther(linearAmounts.getLocked());
+        }
+        // Print value which will be written to state_amount input box
+        //console.log("Max available: " + ethers.utils.formatUnits(available).toString());
+        document.getElementById("state_amount").value = ethers.utils.formatUnits(linearAmounts.getAvailable(), 0);
+        document.getElementById("pb").style.transition = "all 0.1s linear 0s";
+        document.getElementById("pb").style.width = '100%';
+        sleep(1000).then(() => {
+            document.getElementById("pb").classList.remove("progress-bar-animated");
+            document.getElementById("button_calculate_balances").disabled = false;
+            document.getElementById("button_calculate_balances").value = "Refresh/Calculate Balances";
+            document.getElementById("pb").style.width = '0%';
+        });
+    } else {
+        var toastResponse = JSON.stringify({
+            avatar: "../images/favicon.ico",
+            text: "Not a valid Ethereum address!",
+            duration: 10000,
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
+            stopOnFocus: false, // Prevents dismissing of toast on hover
+            onClick: function() {} // Callback after click
+        });
+        var toastObject = JSON.parse(toastResponse);
+        Toastify(toastObject).showToast();
+    }
+}
+
+async function calculateBalances() {
+    linearAmounts.reset();
+    await updateBalances();
+}
+
+async function onButtonClickTransfer() {
+    // UI mods
+    document.getElementById("pb").style.width = '0%';
+    console.log("Disabling button");
+    document.getElementById("button_transfer_tokens").disabled = true;
+    document.getElementById("pb").style.transition = "all 30s linear 0s";
+    document.getElementById("pb").style.width = '80%';
+
+    linearAmounts.reset();
+    await updateBalances();
+    // Provider
+    window.ethereum.enable()
+    provider = new ethers.providers.Web3Provider(window.ethereum);
+
+    // Signer
+    signer = provider.getSigner();
+    console.log(signer);
+
+    // Instantiate all 3 timelock contracts
+    linearTimeLockContract = new ethers.Contract(linear_address, abi, signer);
+
+
     // If we have not hit the unlock period then just send a message and end processing
     if (
-        currentTime < linearAmounts.getReleaseEdge()) {
+        linearAmounts.getCurrentTime().lt(linearAmounts.getReleaseEdge())) {
         console.log("No tokens available yet");
         var unlockCommences = new Date(linearAmounts.getReleaseEdge() * 1000);
         var toastResponse = JSON.stringify({
@@ -500,70 +570,90 @@ async function updateBalances() {
         var toastObject = JSON.parse(toastResponse);
         Toastify(toastObject).showToast();
     } else {
-        // If we have entered the unlock period then go ahead and get the amounts first
-        document.getElementById("pb").style.width = '0%';
-        console.log("Disabling button");
-        document.getElementById("button_calculate_balances").disabled = true;
-        document.getElementById("button_calculate_balances").value = "Calculating balances, please wait ...";
-        document.getElementById("pb").style.transition = "all 30s linear 0s";
-        document.getElementById("pb").style.width = '80%';
+
+        // Init toast response
         var toastResponse;
 
-        // Eth address
-        console.log("Calculating balances");
-        eth_address = document.getElementById('eth_address').value;
-        var pattern = /0x[a-fA-F0-9]{40}/;
-        var resultRegex = pattern.exec(eth_address);
-        if (resultRegex != null) {
-            var recipientAddress = resultRegex[0];
-            // Balance locked 
-            linearUsersBalance = await linearTimeLockContract.balances(resultRegex[0]);
-            linearUsersBalanceBN = new ethers.BigNumber.from(linearUsersBalance);
-            linearAmounts.setLocked(linearUsersBalanceBN);
-            console.log("User's balance: " + linearAmounts.getLocked());
+        // Amount to unlock
+        state_amount = document.getElementById('state_amount').value;
 
-            // Amount already withdrawn
-            linearAlreadyWithdrawn = await linearTimeLockContract.alreadyWithdrawn(resultRegex[0]);
-            linearAlreadyWithdrawnBN = new ethers.BigNumber.from(linearAlreadyWithdrawn);
-            linearAmounts.setWithdrawn(linearAlreadyWithdrawnBN);
-            console.log("Already withdrawn: " + linearAmounts.getWithdrawn());
-
-            // Calculate how many tokens are available, given the current time period and how much time has elapsed so far        
-            if (linearAmounts.getCurrentTime() >= linearAmounts.getReleaseEdge()) {
-                // The maximum time period has passed, so all locked tokens are available now and forever
-                linearAmounts.setAvailable(linearAmounts.getLocked());
-                console.log("No time lock in place, all tokens are available");
-            } 
-            if (ethers.utils.formatEther(linearAmounts.getAvailable()) < 1 && ethers.utils.formatEther(linearAmounts.getAvailable()) > 0) {
-                document.getElementById("available").innerHTML = "< 1";
-            } else {
-                document.getElementById("available").innerHTML = ethers.utils.formatEther(linearAmounts.getAvailable());
-            }
-            if (ethers.utils.formatEther(linearAmounts.getWithdrawn()) < 1 && ethers.utils.formatEther(linearAmounts.getWithdrawn()) > 0) {
-                document.getElementById("withdrawn").innerHTML = "< 1";
-            } else {
-                document.getElementById("withdrawn").innerHTML = ethers.utils.formatEther(linearAmounts.getWithdrawn());
-            }
-            if (ethers.utils.formatEther(linearAmounts.getLocked()) < 1 && ethers.utils.formatEther(linearAmounts.getLocked()) > 0) {
-                document.getElementById("locked").innerHTML = "< 1";
-            } else {
-                document.getElementById("locked").innerHTML = ethers.utils.formatEther(linearAmounts.getLocked());
-            }
-            // Print value which will be written to state_amount input box
-            //console.log("Max available: " + ethers.utils.formatUnits(available).toString());
-            document.getElementById("state_amount").value = ethers.utils.formatUnits(linearAmounts.getAvailable(), 0);
-            document.getElementById("pb").style.transition = "all 0.1s linear 0s";
-            document.getElementById("pb").style.width = '100%';
+        // Ensure that state amount is a real number, if not then we skip everything and send a toast message 
+        try {
+            stateAmountInWei = new ethers.BigNumber.from(state_amount);
+            console.log("Big Number: " + stateAmountInWei);
+        } catch (err) {
             sleep(1000).then(() => {
+                document.getElementById("pb").style.transition = "all 1s linear 0s";
+                document.getElementById("pb").style.width = '100%';
                 document.getElementById("pb").classList.remove("progress-bar-animated");
-                document.getElementById("button_calculate_balances").disabled = false;
-                document.getElementById("button_calculate_balances").value = "Refresh/Calculate Balances";
+                document.getElementById("button_transfer_tokens").disabled = false;
                 document.getElementById("pb").style.width = '0%';
             });
+            var toastResponse = JSON.stringify({
+                avatar: "../images/favicon.ico",
+                text: "Token amount is not a valid number!",
+                duration: 10000,
+                newWindow: true,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
+                stopOnFocus: false, // Prevents dismissing of toast on hover
+                onClick: function() {} // Callback after click
+            });
+            var toastObject = JSON.parse(toastResponse);
+            Toastify(toastObject).showToast();
+            console.log("Token amount is not a valid number");
+            sleep(1000).then(() => {
+                document.getElementById("pb").style.transition = "all 1s linear 0s";
+                document.getElementById("pb").style.width = '100%';
+                document.getElementById("pb").classList.remove("progress-bar-animated");
+                document.getElementById("button_transfer_tokens").disabled = false;
+                document.getElementById("pb").style.width = '0%';
+            });
+            throw "exit";
+        }
+        if (stateAmountInWei > 0 && stateAmountInWei <= linearAmounts.getAvailable()) {
+            eth_address = document.getElementById('eth_address').value;
+            var pattern = /0x[a-fA-F0-9]{40}/;
+            var resultRegex = pattern.exec(eth_address);
+            if (resultRegex != null) {
+                var recipientAddress = resultRegex[0];
+                response = await linearTimeLockContract.transferTimeLockedTokensAfterTimePeriod(erc20_contract_address, recipientAddress, stateAmountInWei);
+                var toastResponse = JSON.stringify({
+                    avatar: "../images/favicon.ico",
+                    text: "Congratulations, tokens unlocked",
+                    duration: 10000,
+                    newWindow: true,
+                    close: true,
+                    gravity: "top", // `top` or `bottom`
+                    position: "right", // `left`, `center` or `right`
+                    backgroundColor: "linear-gradient(to right, #454A21, #607D3B)",
+                    stopOnFocus: false, // Prevents dismissing of toast on hover
+                    onClick: function() {} // Callback after click
+                });
+                var toastObject = JSON.parse(toastResponse);
+                Toastify(toastObject).showToast();
+            } else {
+                var toastResponse = JSON.stringify({
+                    avatar: "../images/favicon.ico",
+                    text: "Not a valid Ethereum address!",
+                    duration: 10000,
+                    newWindow: true,
+                    close: true,
+                    gravity: "top", // `top` or `bottom`
+                    position: "right", // `left`, `center` or `right`
+                    backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
+                    stopOnFocus: false, // Prevents dismissing of toast on hover
+                    onClick: function() {} // Callback after click
+                });
+                var toastObject = JSON.parse(toastResponse);
+                Toastify(toastObject).showToast();
+            }
         } else {
             var toastResponse = JSON.stringify({
                 avatar: "../images/favicon.ico",
-                text: "Not a valid Ethereum address!",
+                text: "Please re-check token amount and try again!",
                 duration: 10000,
                 newWindow: true,
                 close: true,
@@ -576,129 +666,6 @@ async function updateBalances() {
             var toastObject = JSON.parse(toastResponse);
             Toastify(toastObject).showToast();
         }
-    }
-}
-
-async function calculateBalances() {
-    linearAmounts.reset();
-    await updateBalances();
-}
-
-async function onButtonClickTransfer() {
-    linearAmounts.reset();
-    await updateBalances();
-    // Provider
-    window.ethereum.enable()
-    provider = new ethers.providers.Web3Provider(window.ethereum);
-
-    // Signer
-    signer = provider.getSigner();
-    console.log(signer);
-
-    // Instantiate all 3 timelock contracts
-    linearTimeLockContract = new ethers.Contract(linear_address, abi, signer);
-
-    // UI mods
-    document.getElementById("pb").style.width = '0%';
-    console.log("Disabling button");
-    document.getElementById("button_transfer_tokens").disabled = true;
-    document.getElementById("pb").style.transition = "all 30s linear 0s";
-    document.getElementById("pb").style.width = '80%';
-
-    // Init toast response
-    var toastResponse;
-
-    // Amount to unlock
-    state_amount = document.getElementById('state_amount').value;
-
-    // Ensure that state amount is a real number, if not then we skip everything and send a toast message 
-    try {
-        stateAmountInWei = new ethers.BigNumber.from(state_amount);
-        console.log("Big Number: " + stateAmountInWei);
-    } catch (err) {
-        sleep(1000).then(() => {
-            document.getElementById("pb").style.transition = "all 1s linear 0s";
-            document.getElementById("pb").style.width = '100%';
-            document.getElementById("pb").classList.remove("progress-bar-animated");
-            document.getElementById("button_transfer_tokens").disabled = false;
-            document.getElementById("pb").style.width = '0%';
-        });
-        var toastResponse = JSON.stringify({
-            avatar: "../images/favicon.ico",
-            text: "Token amount is not a valid number!",
-            duration: 10000,
-            newWindow: true,
-            close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
-            stopOnFocus: false, // Prevents dismissing of toast on hover
-            onClick: function() {} // Callback after click
-        });
-        var toastObject = JSON.parse(toastResponse);
-        Toastify(toastObject).showToast();
-        console.log("Token amount is not a valid number");
-        sleep(1000).then(() => {
-            document.getElementById("pb").style.transition = "all 1s linear 0s";
-            document.getElementById("pb").style.width = '100%';
-            document.getElementById("pb").classList.remove("progress-bar-animated");
-            document.getElementById("button_transfer_tokens").disabled = false;
-            document.getElementById("pb").style.width = '0%';
-        });
-        throw "exit";
-    }
-    if (stateAmountInWei > 0 && stateAmountInWei <= linearAmounts.getAvailable()) {
-        eth_address = document.getElementById('eth_address').value;
-        var pattern = /0x[a-fA-F0-9]{40}/;
-        var resultRegex = pattern.exec(eth_address);
-        if (resultRegex != null) {
-            var recipientAddress = resultRegex[0];
-            response = await linearTimeLockContract.transferTimeLockedTokensAfterTimePeriod(erc20_contract_address, recipientAddress, stateAmountInWei);
-            var toastResponse = JSON.stringify({
-                avatar: "../images/favicon.ico",
-                text: "Congratulations, tokens unlocked",
-                duration: 10000,
-                newWindow: true,
-                close: true,
-                gravity: "top", // `top` or `bottom`
-                position: "right", // `left`, `center` or `right`
-                backgroundColor: "linear-gradient(to right, #454A21, #607D3B)",
-                stopOnFocus: false, // Prevents dismissing of toast on hover
-                onClick: function() {} // Callback after click
-            });
-            var toastObject = JSON.parse(toastResponse);
-            Toastify(toastObject).showToast();
-        } else {
-            var toastResponse = JSON.stringify({
-                avatar: "../images/favicon.ico",
-                text: "Not a valid Ethereum address!",
-                duration: 10000,
-                newWindow: true,
-                close: true,
-                gravity: "top", // `top` or `bottom`
-                position: "right", // `left`, `center` or `right`
-                backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
-                stopOnFocus: false, // Prevents dismissing of toast on hover
-                onClick: function() {} // Callback after click
-            });
-            var toastObject = JSON.parse(toastResponse);
-            Toastify(toastObject).showToast();
-        }
-    } else {
-        var toastResponse = JSON.stringify({
-            avatar: "../images/favicon.ico",
-            text: "Please re-check token amount and try again!",
-            duration: 10000,
-            newWindow: true,
-            close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            backgroundColor: "linear-gradient(to right, #FF6600, #FFA500)",
-            stopOnFocus: false, // Prevents dismissing of toast on hover
-            onClick: function() {} // Callback after click
-        });
-        var toastObject = JSON.parse(toastResponse);
-        Toastify(toastObject).showToast();
     }
     sleep(1000).then(() => {
         document.getElementById("pb").style.transition = "all 0.1s linear 0s";
