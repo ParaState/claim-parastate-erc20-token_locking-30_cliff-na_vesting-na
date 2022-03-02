@@ -88,4 +88,4 @@ claim-parastate-erc20-token_locking-na_cliff-90-day_vesting-15-month
 ```
 
 
-This particular site will be hosted to [https://second-state.github.io/claim-parastate-erc20-token_locking-na_cliff-na_vesting-na/html/index.html](https://second-state.github.io/claim-parastate-erc20-token_locking-na_cliff-na_vesting-na/html/index.html)
+This particular site will be hosted to [https://second-state.github.io/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/html/index.html](https://second-state.github.io/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/html/index.html)
