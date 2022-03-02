@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/second-state/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/issues"
   },
-  "homepage": "https://second-state.github.io/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/html",
+  "homepage": "https://second-state.github.io/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/html/index.html",
   "dependencies": {
     "ethers": "^5.5.3",
     "express": "^4.17.2",
