@@ -1,5 +1,5 @@
 {
-  "name": "claim-parastate-erc20-token_locking-na_cliff-na_vesting-na",
+  "name": "claim-parastate-erc20-token_locking-30_cliff-na_vesting-na",
   "version": "1.0.4",
   "description": "A user interface for users to claim tokens",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/second-state/claim-parastate-erc20-token_locking-na_cliff-na_vesting-na.git"
+    "url": "git+https://github.com/second-state/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/second-state/claim-parastate-erc20-token_locking-na_cliff-na_vesting-na/issues"
+    "url": "https://github.com/second-state/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/issues"
   },
-  "homepage": "https://second-state.github.io/claim-parastate-erc20-token_locking-na_cliff-na_vesting-na/html",
+  "homepage": "https://second-state.github.io/claim-parastate-erc20-token_locking-30_cliff-na_vesting-na/html",
   "dependencies": {
     "ethers": "^5.5.3",
     "express": "^4.17.2",
